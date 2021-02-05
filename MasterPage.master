@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" dir="rtl">
+<head runat="server">
+    <title>Hungry Birds - Food delivery system</title>
+    <link href="assets/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="assets/css/all.min.css" rel="stylesheet" />
+    <link href="assets/css/StyleSheet.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <section id="mainNavbar">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+                <div class="container">
+                    <a class="navbar-brand" href="default.aspx">
+                        <img src="assets/images/hungry_birds_logo.png" width="100" alt="Hungry Birds" title="Hungry Birds" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">نبذة عنا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">المنتجات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">الدخول</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">الإشتراك</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">لوحة التحكم</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">تواصل معنا</a>
+                            </li>
+
+                        </ul>
+                        <div class="d-flex">
+                            <a href="#" class="px-3 pt-2 link-light" title="عرض سلة المشتريات">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+
+                            <div class="input-group mb-3">
+                                <asp:TextBox ID="TextBox1" CssClass="form-control" type="search" placeholder="ابحث عن اصناف ..." runat="server"></asp:TextBox>
+                                <asp:Button ID="Button1" runat="server" CssClass="btn btn-secondary" Text="البحث" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <section id="footer" class="bg-dark text-light py-5">
+            <div class="container text-center">
+
+                <div class="row">
+                    <div class="col-4 col-lg-2 py-2">
+                        <a href="#" class="btn btn-dark w-100">الرئيسية</a>
+                    </div>
+                    <div class="col-4 col-lg-2 py-2">
+                        <a href="#" class="btn btn-dark w-100">الأصناف</a>
+                    </div>
+                    <div class="col-4 col-lg-2 py-2">
+                        <a href="#" class="btn btn-dark w-100">نبذة عنا</a>
+                    </div>
+                    <div class="col-4 col-lg-2 py-2">
+                        <a href="#" class="btn btn-dark w-100">تواصل معنا</a>
+                    </div>
+                    <div class="col-4 col-lg-2 py-2">
+                        <a href="#" class="btn btn-dark w-100">تسجيل الدخول</a>
+                    </div>
+                    <div class="col-4 col-lg-2 py-2">
+                        <a href="#" class="btn btn-dark w-100">الإشتراك</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-12 col-lg-6 py-2 text-lg-start">
+                        &copy; جميع الحقوق محفوظة 2021
+                    </div>
+                    <div class="col-12 col-lg-6 py-2 text-lg-end">
+                        <ul class="list-unstyled">
+                            <li class="list-inline-item">
+                                <a href="#" class="link-light px-2" title="Our Facebook page">
+                                    <i class="fab fa-facebook fa-2x"></i>
+                                </a>
+                                <a href="#" class="link-light px-2" title="Our Instagram account">
+                                    <i class="fab fa-instagram fa-2x"></i>
+                                </a>
+                                <a href="#" class="link-light px-2" title="Chat with us on Whatsapp">
+                                    <i class="fab fa-whatsapp fa-2x"></i>
+                                </a>
+                                <a href="#" class="link-light px-2" title="Contact with us by email">
+                                    <i class="fa fa-envelope fa-2x"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </form>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
