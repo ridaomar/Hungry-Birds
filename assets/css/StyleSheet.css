@@ -1,4 +1,13 @@
-﻿#featuredItems .card-img-top {
+﻿@font-face{
+    font-family: "Tajawal";
+    src: url("../webfonts/Tajawal-Medium.ttf")
+}
+
+body {
+    font-family: "Tajawal";
+}
+
+#homePagefeaturedItems .card-img-top {
     height: 250px;
     object-fit: cover;
 }
