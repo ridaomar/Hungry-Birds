@@ -13,20 +13,19 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/images/slide_3.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/images/slide_3.jpg" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/images/slide_2.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/images/slide_2.jpg" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
                     <img src="assets/images/slide_1.jpg" class="d-block w-100" />
                 </div>
-
             </div>
         </div>
     </section>
 
-    <section id="about" class="py-5 my-5">
+    <section id="homePageabout" class="py-5 my-5">
         <div class="container text-center mb-5">
             <h2>عن Hungry Birds</h2>
             <p class="mt-3">
@@ -55,7 +54,7 @@
         </div>
     </section>
 
-    <section id="featuredItems" class="bg-light py-5">
+    <section id="homePagefeaturedItems" class="bg-light py-5">
         <div class="container text-center">
             <h2>ابرز الأصناف</h2>
             <p class="mt-3">
@@ -246,7 +245,7 @@
     </section>
 
     
-    <section id="CTA" class="bg-primary text-light py-5">
+    <section id="homePageCta" class="bg-primary text-light py-5">
         <div class="container text-center my-5">
             <h1><i class="fa fa-heart"></i></h1>
             <h2>بماذا نتميز؟</h2>
