@@ -39,7 +39,7 @@
                                 <a class="nav-link" href="#">الإشتراك</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">لوحة التحكم</a>
+                                <a class="nav-link" href="#">لوحة التحكم <i class="fas fa-accessible-icon"></i></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">تواصل معنا</a>
@@ -63,6 +63,7 @@
 
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
+
         <section id="footer" class="bg-dark text-light py-5">
             <div class="container text-center">
 
@@ -97,12 +98,23 @@
                                 <a href="#" class="link-light px-2" title="Our Facebook page">
                                     <i class="fab fa-facebook fa-2x"></i>
                                 </a>
+                            </li>
+                            <li class="list-inline-item">
+
                                 <a href="#" class="link-light px-2" title="Our Instagram account">
                                     <i class="fab fa-instagram fa-2x"></i>
                                 </a>
+                            </li>
+
+                            <li class="list-inline-item">
+
                                 <a href="#" class="link-light px-2" title="Chat with us on Whatsapp">
                                     <i class="fab fa-whatsapp fa-2x"></i>
                                 </a>
+                            </li>
+
+                            <li class="list-inline-item">
+
                                 <a href="#" class="link-light px-2" title="Contact with us by email">
                                     <i class="fa fa-envelope fa-2x"></i>
                                 </a>
