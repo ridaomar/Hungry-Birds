@@ -61,7 +61,7 @@
                 ألذ الوجبات من افضل المطاعم التي تعمل معنا 
             </p>
             <div class="row">
-                <div class="col-12 col-lg-3 my-3">
+                <div class="col-6 col-lg-3 my-3">
                     <div class="card h-100 shadow-sm">
                         <img src="assets/images/item_temp_1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -69,20 +69,20 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr />
                             <div class="row">
-                                <div class="col text-start py-1 text-success">
+                                <div class="col-5 text-start py-1 text-success">
                                     <b>
                                         <asp:Label ID="Label1" runat="server" Text="12"></asp:Label>
                                         د.ل
                                     </b>
                                 </div>
                                 <div class="col text-end">
-                                    <a href="#" class="btn btn-outline-primary w-100">إضافة للسلة </a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary w-100">إضافة للسلة </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3 my-3">
+                <div class="col-6 col-lg-3 my-3">
                     <div class="card h-100 shadow-sm">
                         <img src="assets/images/item_temp_2.jpg" class="card-img-top">
                         <div class="card-body">
@@ -90,20 +90,20 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr />
                             <div class="row">
-                                <div class="col text-start py-1 text-success">
+                                <div class="col-5 text-start py-1 text-success">
                                     <b>
                                         <asp:Label ID="Label2" runat="server" Text="6"></asp:Label>
                                         د.ل
                                     </b>
                                 </div>
                                 <div class="col text-end">
-                                    <a href="#" class="btn btn-outline-primary w-100">إضافة للسلة </a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary w-100">إضافة للسلة </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3 my-3">
+                <div class="col-6 col-lg-3 my-3">
                     <div class="card h-100 shadow-sm">
                         <img src="assets/images/item_temp_3.jpg" class="card-img-top">
                         <div class="card-body">
@@ -111,20 +111,20 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr />
                             <div class="row">
-                                <div class="col text-start py-1 text-success">
+                                <div class="col-5 text-start py-1 text-success">
                                     <b>
                                         <asp:Label ID="Label3" runat="server" Text="5"></asp:Label>
                                         د.ل
                                     </b>
                                 </div>
                                 <div class="col text-end">
-                                    <a href="#" class="btn btn-outline-primary w-100">إضافة للسلة </a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary w-100">إضافة للسلة </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3 my-3">
+                <div class="col-6 col-lg-3 my-3">
                     <div class="card h-100 shadow-sm">
                         <img src="assets/images/item_temp_4.jpg" class="card-img-top">
                         <div class="card-body">
@@ -132,20 +132,20 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr />
                             <div class="row">
-                                <div class="col text-start py-1 text-success">
+                                <div class="col-5 text-start py-1 text-success">
                                     <b>
                                         <asp:Label ID="Label4" runat="server" Text="22"></asp:Label>
                                         د.ل
                                     </b>
                                 </div>
                                 <div class="col text-end">
-                                    <a href="#" class="btn btn-outline-primary w-100">إضافة للسلة </a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary w-100">إضافة للسلة </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3 my-3">
+                <div class="col-6 col-lg-3 my-3">
                     <div class="card h-100 shadow-sm">
                         <img src="assets/images/item_temp_1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -153,20 +153,20 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr />
                             <div class="row">
-                                <div class="col text-start py-1 text-success">
+                                <div class="col-5 text-start py-1 text-success">
                                     <b>
                                         <asp:Label ID="Label5" runat="server" Text="12"></asp:Label>
                                         د.ل
                                     </b>
                                 </div>
                                 <div class="col text-end">
-                                    <a href="#" class="btn btn-outline-primary w-100">إضافة للسلة </a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary w-100">إضافة للسلة </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3 my-3">
+                <div class="col-6 col-lg-3 my-3">
                     <div class="card h-100 shadow-sm">
                         <img src="assets/images/item_temp_2.jpg" class="card-img-top">
                         <div class="card-body">
@@ -174,20 +174,20 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr />
                             <div class="row">
-                                <div class="col text-start py-1 text-success">
+                                <div class="col-5 text-start py-1 text-success">
                                     <b>
                                         <asp:Label ID="Label6" runat="server" Text="6"></asp:Label>
                                         د.ل
                                     </b>
                                 </div>
                                 <div class="col text-end">
-                                    <a href="#" class="btn btn-outline-primary w-100">إضافة للسلة </a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary w-100">إضافة للسلة </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3 my-3">
+                <div class="col-6 col-lg-3 my-3">
                     <div class="card h-100 shadow-sm">
                         <img src="assets/images/item_temp_3.jpg" class="card-img-top">
                         <div class="card-body">
@@ -195,20 +195,20 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr />
                             <div class="row">
-                                <div class="col text-start py-1 text-success">
+                                <div class="col-5 text-start py-1 text-success">
                                     <b>
                                         <asp:Label ID="Label7" runat="server" Text="5"></asp:Label>
                                         د.ل
                                     </b>
                                 </div>
                                 <div class="col text-end">
-                                    <a href="#" class="btn btn-outline-primary w-100">إضافة للسلة </a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary w-100">إضافة للسلة </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3 my-3">
+                <div class="col-6 col-lg-3 my-3">
                     <div class="card h-100 shadow-sm">
                         <img src="assets/images/item_temp_4.jpg" class="card-img-top">
                         <div class="card-body">
@@ -216,14 +216,14 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr />
                             <div class="row">
-                                <div class="col text-start py-1 text-success">
+                                <div class="col-5 text-start py-1 text-success">
                                     <b>
                                         <asp:Label ID="Label8" runat="server" Text="22"></asp:Label>
                                         د.ل
                                     </b>
                                 </div>
                                 <div class="col text-end">
-                                    <a href="#" class="btn btn-outline-primary w-100">إضافة للسلة </a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary w-100">إضافة للسلة </a>
                                 </div>
                             </div>
                         </div>
